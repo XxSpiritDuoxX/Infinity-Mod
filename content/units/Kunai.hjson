@@ -1,0 +1,34 @@
+{
+    "type": "WraithFighter",
+    "name": "Kunai",
+    "description": "Faster versions of the standart Wraith Fighters,Will easily dodge slow bullets,however by being fast,engineers had to remove majority of its armor and some of its weaponry to get its incredible speed",
+    "speed": 0.6,
+    "maxVelocity": 3.0,
+    "mass": 0.8
+    "flying":true,
+    "engineSize": 4,
+    "engineOffset": 10,
+    "hitsize": 4,
+    "health": 40,
+    "itemCapacity": 40,
+    "targetAir":true,
+    "range": 4
+    "weapon":{
+        "name": "gunz",
+        "length":5.0,
+        "width":5.0,
+        "reload":15,
+        "shots":1,
+        "velocityRnd": 0.1,
+        "inaccuracy": 0,
+        "alternate": true,
+        "ejectEffect": "shellEjectSmall",
+        "bullet": {
+				"type": "BasicBulletType",
+				"lifetime": 180,
+				"speed": 6,
+				"damage": 20,
+		},
+        "shootSound": "shootSnap"
+    }
+}
