@@ -1,0 +1,64 @@
+type: DoubleTurret
+name: spirit duo
+description: hehehehe,spirit duo should make a duo made out of spirits cuz his name is spirit duo hehehehehehe
+health: 1000
+size: 1
+reload: 20
+range: 125
+ammoUseEffect: shellEjectSmall
+inaccuracy: 2
+rotatespeed: 13
+ammo: {
+  copper: {
+    speed: 6
+    damage: 20
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 2
+  }
+  titanium: {
+    speed: 6
+    damage: 25
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 2
+  }
+    thorium: {
+    speed: 6
+    damage: 30
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 2
+  }
+    platinum: {
+    speed: 6
+    damage: 40
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 2
+  }
+    moltenbar: {
+    speed: 6
+    damage: 75
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 2
+  }
+
+}
+requirements: [
+  platinum/90
+  titanium/30
+]
+category: turret
+research: Xuo2
