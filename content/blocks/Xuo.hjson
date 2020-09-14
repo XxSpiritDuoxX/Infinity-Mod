@@ -1,6 +1,6 @@
 type: DoubleTurret
 name: Combat Duo
-description: alternative upgrade to the Duo,unlike the Salvo,the Combat duo is a compact turret allowing for more space,however one of its downsides are that the turret only shoots projectiles made out of its own
+description: alternative upgrade to the Duo,unlike the Salvo,the Combat duo is a compact turret allowing for more space,however one of its downsides are that the turret only shoots projectiles made out of its own,was created by Gauros for the elites under attack by the Behemoths.
 health: 350
 size: 1
 reload: 20
@@ -10,7 +10,7 @@ inaccuracy: 3
 rotatespeed: 12
 ammo: {
   copper: {
-    speed: 3
+    speed: 4
     damage: 12
     bulletWidth: 7
     bulletHeight: 9
