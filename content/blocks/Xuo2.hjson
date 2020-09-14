@@ -1,0 +1,37 @@
+type: DoubleTurret
+name: Advanced Duo
+description: Final Upgrade to the Duo,used mainly to slow down the forces of the enemy,often used when needed to slow down enemy forces without having to spend time creating superturrets
+health: 600
+size: 1
+reload: 15
+range: 125
+ammoUseEffect: shellEjectSmall
+inaccuracy: 2
+rotatespeed: 13
+ammo: {
+  copper: {
+    speed: 4
+    damage: 20
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 2
+  }
+  titanium: {
+    speed: 4
+    damage: 30
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 2
+  }
+
+}
+requirements: [
+  lead/50
+  copper/80
+]
+category: turret
+research: Xuo
