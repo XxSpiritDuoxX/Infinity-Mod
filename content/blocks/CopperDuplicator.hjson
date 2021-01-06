@@ -1,0 +1,27 @@
+type: GenericSmelter
+name: Copper Duplicator
+description: Uses anomalous means to duplicate resources,any attempts at duplicating high class materials results in an explosion for mysterious reasons.
+liquidCapacity: 50
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 30
+updateEffect: smeltsmoke
+consumes: {
+  power: 10
+  items: {
+    items: [
+      copper/5
+    ]
+  }
+requirements: [
+  copper/1000
+  lead/600
+  silicon/250
+]
+category: crafting
+research: core_shard
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: copper/20
