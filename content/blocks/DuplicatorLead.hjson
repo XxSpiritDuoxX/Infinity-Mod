@@ -1,0 +1,27 @@
+type: GenericSmelter
+name: Lead Duplicator
+description: Uses anomalous means to duplicate resources,any attempts at duplicating high class materials results in an explosion for mysterious reasons.
+liquidCapacity: 50
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 30
+updateEffect: smeltsmoke
+consumes: {
+  power: 10
+  items: {
+    items: [
+      lead/5
+    ]
+  }
+requirements: [
+  lead/1000
+  copper/600
+  silicon/250
+]
+category: crafting
+research: core_shard
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: lead/20
