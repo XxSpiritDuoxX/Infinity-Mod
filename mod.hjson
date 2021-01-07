@@ -1,6 +1,6 @@
-name: "example-mosdfd"
-displayName: "[orange]Exampsdfdle[gold] Mod" //what displays in the mod selection menu
-author: "Anuke"
-description: "A simple mod. Demonstrates how to make[accent] new ores[] and[orange] machines.[]"
-version: "3.1"
-minGameVersion: "103"
+name: "infinity-mod"
+displayName: "[white]I[yellow]n[white]f[yellow]i[white]n[yellow]i[white]t[yellow]y[purple] Mod" //what displays in the mod selection menu
+author: "[blue]Xx[white]SpiritDuo[blue]xX"
+description: "[cyan]A work in progress mod to improve quality of life and will also have a seemingly infinite amount of gameplay.[]"
+version: "0"
+minGameVersion: "122.1"
