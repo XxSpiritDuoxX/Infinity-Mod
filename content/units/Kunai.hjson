@@ -1,5 +1,5 @@
 {
-    "type": "WraithFighter",
+    "type": "flying",
     "name": "Kunai",
     "description": "Faster versions of the standart Wraith Fighters,Will easily dodge slow bullets,however by being fast,engineers had to remove majority of its armor and some of its weaponry to get its incredible speed",
     "speed": 0.6,
