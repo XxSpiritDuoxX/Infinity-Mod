@@ -1,0 +1,23 @@
+type: SingleTypeGenerator
+name: Surge Machine
+description: Turns surge alloy into pure energy,the inventor of the machine remains anonymous,because it was found on the ground in Sector [black]|||||||||||||
+size: 2
+hasPower: true
+hasItems: true
+itemDuration: 60
+powerProduction: 2
+consumes: {
+  items: {
+    items: [
+      surge-alloy/1
+    ]
+    optional: true
+  }
+}
+requirements: [
+  surge-alloy/2
+  lead/100
+  copper/150
+]
+category: power
+research: surge-alloy
