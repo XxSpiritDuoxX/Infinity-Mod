@@ -1,0 +1,33 @@
+type: GenericSmelter
+name: Iron Extractor
+description: Extracts iron deep from the earth,Water can be optionally used to quicken the process,used to craft other extractors or make better versions of current ones
+liquidCapacity: 50
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.5
+  items: {
+    items: [
+      iron/0
+    ]
+  }
+  liquid: {
+    liquid: water
+    amount: 0.1
+    booster: true
+  }
+}
+requirements: [
+  lead/100
+  copper/50
+  silicon/15
+]
+category: crafting
+research: graphiteOress
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: iron/1
