@@ -22,7 +22,7 @@ requirements: [
   silicon/250
 ]
 category: crafting
-research: graphite_press
+research: lead
 idleSound: respawning
 idleSoundVolume: 0.5
 outputItem: lead/20
