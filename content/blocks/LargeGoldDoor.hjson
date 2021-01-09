@@ -1,0 +1,11 @@
+name: Large Gold Door
+description: 3x Stronger than a normal door of its size
+type: door
+health: 7500
+size: 2
+requirements: [
+  gold/45
+  titanium/50
+]
+category: defense
+research: GoldDoor
