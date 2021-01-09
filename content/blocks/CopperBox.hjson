@@ -1,0 +1,12 @@
+name: Copper Box
+description: the way this item was invented is obvious,a man just made a box out of copper
+type: Vault
+itemCapacity: 100
+hasItems: true
+health: 100
+size: 1
+requirements: [
+  copper/50
+]
+category: effect
+research: copper
