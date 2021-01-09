@@ -22,7 +22,7 @@ requirements: [
   silicon/250
 ]
 category: crafting
-research: core_shard
+research: graphite_press
 idleSound: respawning
 idleSoundVolume: 0.5
 outputItem: copper/20
