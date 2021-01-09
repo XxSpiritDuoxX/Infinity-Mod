@@ -15,6 +15,7 @@ consumes: {
       lead/5
     ]
   }
+}
 requirements: [
   lead/1000
   copper/600
