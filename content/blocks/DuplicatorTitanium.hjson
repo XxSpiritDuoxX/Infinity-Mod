@@ -1,0 +1,29 @@
+type: GenericSmelter
+name: Titanium Duplicator
+description: Uses anomalous means to duplicate resources,any attempts at duplicating high class materials results in an explosion for mysterious reasons.
+liquidCapacity: 50
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 30
+updateEffect: smeltsmoke
+consumes: {
+  power: 15
+  items: {
+    items: [
+      titanium/5
+    ]
+  }
+}
+requirements: [
+  titanium/1000
+  lead/800
+  copper/500
+  silicon/350
+]
+category: crafting
+research: titanium
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: titanium/20
