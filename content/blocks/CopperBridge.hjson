@@ -1,5 +1,5 @@
 name: Copper Bridge
-description: an earlier version of the bridge that went unused,the main difference between the modern version is that it can hold 40 more items but the speed is rather atrocious and its durability is also terrible,so that was the main reason it was left unused,but perhaps it may come handy in your hands
+description: an earlier version of the bridge created by Dr Borbus that went unused,the main difference between the modern version is that it can hold 40 more items but the speed is rather atrocious and its durability is also terrible,so that was the main reason it was left unused,but perhaps it may come handy in your hands
 type: itemBridge
 health: 10
 size: 1
@@ -8,8 +8,8 @@ hasPower: false
 itemCapacity: 50
 transportSpeed: 1
 requirements: [
-  copper/5
-  lead/1
+  copper/20
+  lead/5
 ]
 category: distribution
-research: bridge-conveyor
+research: itemBridge
