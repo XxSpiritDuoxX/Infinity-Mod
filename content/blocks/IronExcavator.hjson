@@ -1,0 +1,33 @@
+type: GenericSmelter
+name: Iron Excavator
+description: Extracts iron 4x faster than a generic Extractor mainly because it mines much deeper and a wider area
+liquidCapacity: 50
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 30
+updateEffect: smeltsmoke
+consumes: {
+  power: 2.5
+  items: {
+    items: [
+      iron/0
+    ]
+  }
+  liquid: {
+    liquid: water
+    amount: 0.1
+    booster: true
+  }
+}
+requirements: [
+  iron/50
+  titanium/100
+  silicon/50
+]
+category: crafting
+research: graphitepress
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: iron/2
