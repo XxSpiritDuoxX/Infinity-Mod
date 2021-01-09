@@ -1,0 +1,11 @@
+name: Gold Door
+description: 3x Stronger than a normal door of its size
+type: door
+health: 1200
+size: 1
+requirements: [
+  gold/7
+  titanium/10
+]
+category: defense
+research: door
