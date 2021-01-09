@@ -1,6 +1,6 @@
 type: GenericSmelter
 name: Iron Excavator
-description: Extracts iron 4x faster than a generic Extractor mainly because it mines much deeper and a wider area
+description: Extracts iron 4x faster than a generic Miner mainly because it mines much deeper and a wider area
 liquidCapacity: 50
 size: 3
 hasPower: true
@@ -27,7 +27,7 @@ requirements: [
   silicon/50
 ]
 category: crafting
-research: graphitepress
+research: IronMiner
 idleSound: respawning
 idleSoundVolume: 0.5
 outputItem: iron/2
