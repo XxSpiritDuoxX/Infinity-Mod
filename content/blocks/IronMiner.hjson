@@ -1,5 +1,5 @@
 type: GenericSmelter
-name: Iron Extractor
+name: Iron Miner
 description: Extracts iron deep from the earth,Water can be optionally used to quicken the process,used to craft other extractors or make better versions of current ones
 liquidCapacity: 50
 size: 2
@@ -27,7 +27,7 @@ requirements: [
   silicon/15
 ]
 category: crafting
-research: graphiteOress
+research: graphitePress
 idleSound: respawning
 idleSoundVolume: 0.5
 outputItem: iron/1
