@@ -1,0 +1,15 @@
+name: Borbus' Bridge
+description: approximatley 2 months after the idea proposal of the bridge,Dr Borbus invented the first bridge known to mankind,it was exactly what they needed but it was kind of lacking for what the people hoped for,but they used it anyway until the great inventor Xorcun built a bridge that was exactly what the council wanted (and this bridge is what we use today,the modern item bridge),cheap but useful,unlike the previous bridge which was expensive and slow,however,occationaly you can still see this bridge being used because of its 4 tile expansion
+type: itemBridge
+health: 55
+size: 1
+range: 4
+hasPower: false
+itemCapacity: 7
+transportSpeed: 2
+requirements: [
+  copper/20
+  lead/17
+]
+category: distribution
+research: bridge-conveyor
